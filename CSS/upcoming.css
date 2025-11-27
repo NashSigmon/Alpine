@@ -4,7 +4,6 @@
 }
 
 
-
 html, body{
     height: 100%;
     margin: 0;
@@ -51,37 +50,53 @@ nav{
     color: rgb(10, 205, 26);
  
 }
-#about_content{
-    background-color: rgb(24,24,24);
-    height: 84vh;
-    background-image: url(../Images/TheAlpineCrew3Cropped.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    justify-content: center;
-    border: solid;
+
+#upcoming_Content{
+    display: flex;
+    flex-direction: row;
 }
 
-#about_title{
-    font-size: 5rem;
-    justify-self: center;
-    font-family: Impact;
-    
-    color: rgb(18, 190, 32);
-    -webkit-text-stroke: 2px;
-    -webkit-text-stroke-color: black;
-}
-#about_description{
-    justify-self: center;
-    background-color: rgb(49, 49, 49);
-    font-family: Impact;
-    color: white;
-    width: 10in;
+
+#upcoming_sec1{
+    background: rgb(28, 28, 28);
+    border: solid;
+    border-color: white;
+    width: 50%;
+    height: 84vh;
     text-align: center;
-    font-size: 2.5rem;
-    position: relative;
     
 }
+
+#upcoming_sec1Title{
+    font-size: 50px;
+    color: white;
+}
+#upcoming_sec1List{
+    color: white;
+    
+}
+.upcoming_event{
+    font-size: 30px;
+    border: dashed;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Impact;
+}
+
+.upcoming_event:hover{
+    background-color: rgb(8, 168, 22);
+    color: black;
+}
+#upcoming_sec2{
+    width: 35%;
+    height: 84vh;
+}
+
+
+
 
 .social_link{
     font-family: 'impact';
